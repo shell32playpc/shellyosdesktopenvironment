@@ -19,10 +19,13 @@ WinPE-NetFx.cab
 WinPE-HTA.cab
 WinPE-SecureStartup.cab
 WinPE-WMI.cab
+```
+以下為語言包，\zh-tw\lp.cab可選安裝
+```
 WinPE-FontSupport-ZH-TW.cab
 \zh-tw\lp.cab
 ```
-5. 如果使用DISM++，請把時區設為Taipei Startand Time；如果使用DISM工具，請輸入
+5. (可選)如果使用DISM++，請把時區設為Taipei Startand Time；如果使用DISM工具，請輸入
 ```
 DISM /Image:".\mount" /Set-AllIntl:zh-TW
 ```
